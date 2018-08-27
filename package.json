@@ -1,0 +1,24 @@
+{
+  "name": "hexo-deployer-gcs",
+  "version": "0.0.1",
+  "description": "Hexo plugin to deploy to Google Cloud Storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hexo",
+    "google",
+    "gcs",
+    "google",
+    "cloud",
+    "storage",
+    "plugin"
+  ],
+  "author": "Ben Catlin",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/storage": "^1.7.0",
+    "recursive-readdir": "^2.2.2"
+  }
+}
