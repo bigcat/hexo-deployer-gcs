@@ -1,10 +1,8 @@
-Hexo Deployer GCS
----
+# Hexo Deployer GCS
+
 Plugin for hexo to make it easy to deploy to GCS for static file hosting.
 
-
-
-**Configuration**
+## Configuration
 
 Below shows the main things to put in the `deploy` section of your `_config.yaml` file.  The key file is optional, alternatively you can set the enviornment variable `GOOGLE_APPLICATION_CREDENTIALS`.  For more information see https://cloud.google.com/docs/authentication/
 
@@ -20,9 +18,9 @@ deploy:
 
 
 
-**License**
+## License
 
-Apache 2.0
+**Apache 2.0**
 
 Copyright 2018 Ben Catlin
 
